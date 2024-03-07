@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    background-image: url(img/8march.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.title {
+    text-align: center;
+    color: rgb(255, 84, 84);
+    font-size: 56px;
+}
+
+.content__text {
+    color: rgb(255, 101, 101);
+    height: 90%;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.march {
+    text-align: center;
+}
+
+.content__btn {
+    text-align: center;
+}
+
+.btn {
+    border: solid 1px white;
+    padding: 15px 40px;
+    border-radius: 20px;
+    background-color: #c90000;  
+    color: white;
+    font-size: 24px;
+    transition: all 0.1;
+    font-family: 'Pacifico', cursive;
+}
+
+.btn:hover {
+    background-color: rgb(166, 2, 2);
+    color: rgb(255, 77, 77);
+    transition: 0.4s;
+}
+
+.btn:active {
+    transform: translate(2px, 2px);
+}
